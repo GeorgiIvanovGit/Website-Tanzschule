@@ -1,0 +1,209 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Ballet</title>
+    <link href="css/responsive.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/kurse_edited.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="hero_area">
+        <!-- header section strats -->
+        <header class="header_section">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo_ivanova_name.jpg" width="150px" height="90px" alt="" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto mr-2">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="classes.html">Kurse</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">Über uns </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="dance.html">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Kontakt</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+    <section class="about_section">
+        <div class="container">
+            <h2>
+                Ballet
+            </h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about-detail">
+                        <h3>
+                            Classical Ballet
+                        </h3>
+                        <p>
+                            Hip-Hop ist eine Musikrichtung mit den Wurzeln in der afroamerikanischen Funk- und Soul-Musik. Der Rap (Sprechgesang), der aus den jamaikanischen Tradition des Toasting entstand, das Samplen und das Scratchen sind weitere Merkmale dieser aus den afroamerikanischen Ghettos der USA stammenden Musik. Der Begriff Hip-Hop geht (je nach Quelle) entweder auf Lovebug Starski oder DJ Hollywood zurück, beide Pioniere der Form.
+                        </p>
+                    <!--    <button class="open-button" onclick="signUpForClass()"></button>--->
+                        <div class="form-popup" id="myForm">
+
+                            <form onsubmit="return addNewBooking()" class="form-container" id="addNewBookingForm" method="post">
+                                <h1>Anmelden</h1>
+                                <input type="text" placeholder="Vorname" name="vorname" required>
+                                <input type="text" placeholder="FamilienName" name="familienname" required>
+                                <input type="text" placeholder="Email" name="email" required>
+                                <input type="text" placeholder="Telephone" name="telephone" required>
+                                
+                                <input hidden />
+                                <input hidden />
+
+                                <button type="submit" class="btn">Anmelden</button>
+                                <button type="button" class = "btn cancel" onclick="windowClose();">Close</button>
+                            </form>
+                        </div>
+
+                        <table id="Termintable">
+                        </table>
+                        <br>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="about-imge-box">
+                        <img src="images/class-2.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="info_section">
+        <div class="container ">
+            <div class="row custom_border-btm mb-3 pb-4">
+                <div class="col-md-4 info_logo">
+                    <h2>
+                        Ivanova
+                    </h2>
+                    <p>
+                        Tanzschule Ivanova ist eine of passages of Lorem Ipsum available, but the majority have suffered alteration in
+                        some form, by injected humour.
+                    </p>
+                </div>
+                <div class="col-md-4 info_address">
+                    <h5>
+                        Address
+                    </h5>
+                    <p>
+                        Augsburg, Pipinger straße 443
+                    </p>
+                    <p>
+                        (+111) 1234567890
+                    </p>
+                    <p>
+                        email@email.com
+                    </p>
+                </div>
+                <div class="col-md-4 info_news">
+                    <h5>
+                        Newsletter
+                    </h5>
+                    <form action="">
+                        <div>
+                            <input type="email" placeholder="email">
+                        </div>
+                        <div>
+                            <button type="submit">
+                                Subscribe
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+            <div class="info_nav ">
+                <nav class="custom_border-btm">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">Über uns</a>
+                        </li>
+                        <li>
+                            <a href="dance.html">Shop</a>
+                        </li>
+                        <li>
+                            <a href="classes.html">Kurse</a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html">Kontakt uns</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <div class="info_social">
+                    <div>
+                        <a href="https://facebook.com">
+                            <img src="images/fb.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://twitter.com">
+                            <img src="images/twitter.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://linkedin.com">
+                            <img src="images/linkedin.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://instagram.com">
+                            <img src="images/insta.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- endsss info section -->
+    <!-- footer section -->
+    <section class="container-fluid footer_section">
+        <p>
+            Copyright &copy; 2019 All Rights Reserved By
+            <a href="https://html.design/">html.design</a>
+        </p>
+    </section>
+    <!-- footer section -->
+
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/termins_edited.js"></script>
+
+</body>
+</html>
